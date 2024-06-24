@@ -1,0 +1,89 @@
+/* Word.css */
+
+.form-container {
+    margin-bottom: 20px;
+   
+    padding: 10px;
+  }
+  
+  .word-input {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 80px);
+    /* margin-right: 10px; */
+    display: block;
+    margin: auto;
+    margin-right: 30px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(50, 128, 245, 0.428);
+  }
+  hr{
+    color : gray;
+    width: auto;
+    height: 2px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+  }
+  .submit-button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 23px rgba(25, 24, 24, 0.551);
+    font-size: 16px;
+    background-color: #2a6ef7;
+    color: #f7f5f5;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dictionary-container {
+    margin-top: 20px;
+  }
+  
+  .dictionary-word {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .phonetic-text {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .phonetic-audio {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .meanings-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .part-of-speech {
+    font-size: 20px;
+    margin-top: 16px;
+  }
+  
+  .definition-item {
+    margin-bottom: 10px;
+  }
+  
+  .example-text {
+    font-style: italic;
+    margin-top: 6px;
+  }
+  
